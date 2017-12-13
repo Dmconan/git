@@ -1085,7 +1085,7 @@ test_i18ngrep () {
 		! grep "$@"
 	else
 		grep "$@"
-	fi
+	fi >/dev/null
 }
 
 test_lazy_prereq PIPE '
